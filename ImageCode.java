@@ -75,7 +75,7 @@ public class ImageCode {
         }
 
         /* 5. 生成image */
-        String filePath = "/Users/hyperplasma/workspace/codes/Java/ProtoImageCode/" + fileName;
+        String filePath = "./" + fileName;
         ImageIO.write(image, "jpg", new File(filePath));
         return sb.toString();
     }
